@@ -1,0 +1,50 @@
+/** Start Public **/
+body
+{
+    box-sizing: border-box;
+}
+thead tr{background: #172B4D !important; color:#fff}
+form{position: relative;}
+
+#example_info, #example_paginate{display: none;}
+/** End Public **/
+
+/**|| Start Admins ||**/
+.show-admins tr td:first-child
+{
+    background: #f2f2f2;
+}
+/**|| End Admins ||**/
+
+/**|| Start Clients TeliSales ||**/
+
+.clients-system .row{display: block;}
+.show-clients .table-show-client tr td:first-child{background: #333 !important;color:#fff;font-weight: bolder;}
+.show-clients .table-show-client tr td:last-child{background: #fff !important;}
+
+.table-show-project thead{background: #fff;}
+.table-show-project{text-align: center;padding: 10px;}
+
+.date_note
+{
+    background:#f1f1f1;
+    padding:5px;
+    border-radius: 4px;
+}
+
+.scroll-notes{overflow-x:scroll;height:400px}
+.parent-notes{margin-top: 40px;}
+/**|| End Clients TeliSales ||**/
+
+/**|| Start Projects ||**/
+.projects-system .row{display: block;}
+/**|| End Prohjects ||**/
+
+
+/**|| Start Footer ||**/
+.footer{
+    position:fixed;
+    bottom:0;
+}
+/**|| End Footer ||**/
+
